@@ -27,10 +27,13 @@
     
     <abbr title="information technology">IT</abbr>
    <a href="http:\\www.gooogle.com" target="_blank"><img src="google.png"title=google></a>
-   
-  <a href="http:\\www.facebok.com"traget="_blank"><img src="facebok.png"title=facebok></a>
- 
     
+  <a href="http:\\www.facebok.com"traget="_blank"><img src="facebok.png"title=facebok></a>
+
+  <!------------------------------------ origon Change------------------------ -->
+ <p dir="rtl"> Pakistan is very Beaautiful country.</p>
+ <p dir="ltr">Pakistan is very Beaautiful country</p>
+ <p dir="auto">Pakistan is very Beaautiful country</p>
    <!----- Lists-- -->
    <ol>
        <li>Sahiwal</li>
@@ -46,7 +49,7 @@
     <dd>Fast Food</dd>
     <dt>Kfc</dt>
     <dd>fast Food</dd>
-    <dt>Quaid E Azam
+    <dt>Quaid E Azam</dt>
         <dd>1876-1938</dd>
 
     <dl>
@@ -70,7 +73,8 @@
     </li>
 </ul>
 <form style="text-align: center;" >
-    
+    <fieldset>
+        <legend>Basic information</legend>
     <label>Name</label>
     <br>
     <input placeholder="Name" type="text" required>
@@ -78,7 +82,11 @@
     <label>Surename</label>
     <br>
     <input placeholder="Surename"type="text " required>
+</fieldset>
+    
     <br>
+    <fieldset>
+        <legend>Important information</legend>
     <label>Mobile Number </label>
     <br>
     <input placeholder="Mobile number"type="tel" pattern="[0-9]{4}-[0-9]{7}"required>
@@ -86,10 +94,11 @@
     <label>New Password</label>
     <br>
     <input placeholder="New Password"type="Password"required>
+</fieldset>
     <br>
     <label>Message</label>
     <br>
-    <textarea placeholder="enter your msg" required>enter your message</textarea>
+    <textarea placeholder="enter your msg" required></textarea>
     <br>
     <br>
     <gender>Gender</gender>
@@ -104,12 +113,12 @@
     <label>Red</label>
     <br>
     <br>
-    <input type="checkbox"name="fav1">
+    <input type="checkbox"name="fav2">
     <label>Black</label>
     <br>
     <br>
-    <input type="checkbox"name="fav1">
-    <label>Blue</label>
+    <input type="checkbox"name="fav3">
+    <lahjjhunubel>Blue</label>
     <br>
     <br>
     <input type="File">
@@ -134,7 +143,7 @@
     <input type="submit">
     <br>
     <lable>chose your city</lable>
-    <select>
+    <serlect>
          
          <option>Sahiwal</option>
          <option>Okara</option>
@@ -149,9 +158,10 @@
         <br>
         <input type="week">
         <br>
+        <!--------------- signs------------ -->
         <p> €</p>
           <!------------------------------------- HTML emogis----------------------------------------- -->      
-        <p>😃 😄 😁 😆 😅 😂 🤣 🥲 ☺️ 😊 😇 🙂 🙃 😉 😌 😍 🥰 </p>   
+        <p>😃 😄 😁 😆 😅 😂  😍 🥰 </p>   
         <!--------------------------------- HTML FRAME----------------------------------- -->
         <iframe src="SRK.jpg"Width="900 px" height="450px">
         
@@ -163,8 +173,8 @@
         <br>
 
         <!-- --------------------HTML VIDEO ---------------------->
-        <video controls autoplay muted >
-            <source src="Qaim.mp4.mp4" widh="500px" height="500px">
+        <video controls autoplay muted width="780px" height="780px" >
+            <source src="video.mp4"  > 
 
         </video>
         <br>
@@ -181,42 +191,49 @@
     <option>Newzeland</option>
     <option>England</option>
 </datalist>
-    <!------------------------------------- HTML ENTITIES-------------------------------------------- -->
    
-    <br>
-    <br>
   
   
 </form>
 </DIV> 
+
+
+<!---------------------------- HTMLTABLE ----------------------------------------------------->
 <ul>
     <li>
         <h1> How Make Tables</h1>
     </li>
 </ul>
-<table border="10px" style="width: 70%;" align="center">
+<table  border="10px" style="width: 70%;" align="center">
     
     <tr>
+        <thead style="color: blueviolet;">
         
         <th>Student Name</th>
         <br>
         <th>Gmail</th>
         <br>
-        <th>Grade</th>
-        <br>
-        <th>CGPA</th>
+        <th colspan="2" >Grade &nbsp;  cgpa</th>
+        <th>address</th>
+    </thead>
     </tr>
     <tr>
+        <tbody style="color: brown;">
         <td>Adnan Sher</td>
         <td>adnansher995@gmail.com</td>
         <td>A</td>
         <td>3.32</td>
+        <td rowspan="3">Sahiwal</td>
+    </tbody>
     </tr>
     <tr>
+        <tbody style="color: blue;">
         <td>Qaim Jafer</td>
         <td>qaimjafer665@gmail.com</td>
         <td>A</td>
         <td>3.35</td>
+      
+    </tbody>
     </tr>
     <tr>
         <td>Fahad ALi</td>
@@ -233,6 +250,18 @@
         <td>3.2</td>
     </tr>
 
+    <!------------------------- Nav Bar--------------------- -->
+    <nav>
+        <ul>
+            <li><a href=#>Home</li></a>
+            <li><a href=#>About</li></a>
+            <li><a href=#>Contant</li></a>
+        </ul>
+    </nav>
+    <!--------------------------- table footer----------------- -->
+ <tfoot style="align-centre" >
+     <td>Student data</td>
+ </tfoot>
 </table>
 
 </body>
