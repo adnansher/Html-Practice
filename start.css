@@ -1,0 +1,155 @@
+/* p */
+{
+background-color: black;
+color: white;
+}
+#c1
+{
+    background-color: blueviolet;
+    color: black;
+    text-decoration: none;
+
+}
+#c2
+{
+    background-color:lightgreen;
+    color: white;
+    text-decoration: none;
+
+}
+#c3
+{
+    background-color:navy;
+    color: white;
+    text-decoration: none;
+}
+#c4
+{
+    background-color:indigo;
+    
+    color: white;
+}
+ .u1 
+{
+    background-color: black;
+    color:wheat;
+    border: red 2px solid;
+    text-decoration: none;
+}
+/* p,h2, h3 */
+{
+    background-color: blueviolet;
+    border: blue 2px dotted;
+}
+input
+{
+border-color: fuchsia;
+border-radius: 2px;
+border-style: groove;
+border-top-color:mediumblue;
+border-bottom-color: gold;
+border-width: 3px;
+}
+
+.r1
+{
+    background-color: blueviolet;
+    color: white;
+}
+.u2
+{
+    background-color:darkturquoise;
+    color:blueviolet
+    border-color: brown;
+
+}
+nav
+{
+    display:inline-block;
+    padding-left: 800px;
+    padding-top: 50px;
+    padding: 10px;
+    text-decoration: none;
+    padding-left: 550px;
+    
+   
+}
+div 
+{
+background-color:aquamarine;
+height: 300px;
+width: 900px;
+display: inline-block;
+
+}
+#k1
+{
+    background-color: lightcoral;
+    padding-left: 20px;
+}
+#div1
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div2
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div3
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div4
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div5
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div6
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div7
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+#div8
+{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+}
+p
+{
+    text-decoration: underline;
+    text-align: center;
+    text-align: justify;
+    text-transform: capitalize;
+    text-transform:uppercase;
+    text-transform:lowercase;
+    text-transform:inherit;
+    text-shadow: 2px 2px blueviolet;
+    font-size:medium ;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.para2
+{
+vertical-align: sub;
+}

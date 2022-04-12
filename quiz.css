@@ -1,0 +1,45 @@
+body
+{
+    background-color: blueviolet;
+}
+form
+{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    padding-left: 40px;
+    padding-top: 60px;
+    margin-left:900px;
+    border: 2px white solid;
+
+}
+   
+legend
+{
+color: white;
+border: 2px solid;
+background-color: aqua;
+width: 150px;;
+height: 15px;
+margin-left: 900px;
+margin-right: ;
+}
+fieldset
+{
+    color: white;
+    border:2px solid aqua;
+    width: 150px;
+    margin-left: 815px; 
+    margin-top: 100px;
+    ba
+    
+}
+#c1
+{
+background-color: aqua;
+
+}
+.c2
+{
+    border-color: aqua;
+}
